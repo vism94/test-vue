@@ -1,0 +1,25 @@
+{
+  "name": "test-vue",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "build:ssr": "vite build --ssr",
+    "serve": "node server.js"
+  },
+  "dependencies": {
+    "@vue/server-renderer": "^3.5.9",
+    "express": "^4.21.0",
+    "pinia": "^2.2.2",
+    "sass": "^1.79.3",
+    "vue": "^3.4.29",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "sass-embedded": "^1.79.3",
+    "vite": "^5.3.1"
+  }
+}
